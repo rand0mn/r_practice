@@ -23,6 +23,5 @@ build_ziggurat <- function(n) {
     scope <- (level):(dim - level + 1)
     m[scope, scope] <- level
   }
-  return(m)
+  m
 }
-
